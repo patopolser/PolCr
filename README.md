@@ -2,6 +2,14 @@
 
 PolCr es un lenguaje de programación interpretado desarrollado en Python. Este documento proporciona una breve guía sobre la sintaxis y las características principales de PolCr.
 
+## Usage
+
+Interpretar un archivo
+` python main.py <archivo.polser> `
+
+En consola
+` python shell.py `
+
 ## Condicionales
 
 Los condicionales en PolCr se definen de la siguiente manera:
