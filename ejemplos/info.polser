@@ -1,0 +1,5 @@
+polser nombre = pin("Ingrese su nombre: ")
+polser apellido = pin("Ingrese su aplleido: ")
+polser edad = pin_int("Ingrese su edad: ")
+
+pout("Hola " + nombre + " " + apellido + " tu edad es: " + edad)

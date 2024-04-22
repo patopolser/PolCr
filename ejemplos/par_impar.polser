@@ -1,0 +1,11 @@
+funcion es_par(numero)
+	si numero % 2 == 0 entonces
+		pout("El numero " + numero + " es par")
+	sino 
+		pout("El numero " + numero + " es impar")
+	fin
+fin
+
+polser n = pin_int("Ingrese el numero: ")
+
+es_par(n)

@@ -1,0 +1,9 @@
+funcion patron(tamaño)
+    desde i = 1 hasta tamaño + 1 entonces
+        pout("*" * i)
+    fin
+fin
+
+polser tamaño = pin_int("Ingrese el tamaño del patrón: ")
+
+patron(tamaño)

@@ -1,0 +1,21 @@
+funcion es_palindromo(numero)
+	polser aux = numero
+	polser aux2 = 0
+	polser respuesta = 0
+
+	mientras aux >= 1 entonces
+		polser aux2 = aux % 10
+		polser respuesta = (respuesta * 10) + aux2
+		polser aux = entero(aux / 10)
+	fin
+	
+	devolver numero == respuesta
+fin
+
+polser n = pin_int("Ingrese el numero: ")
+
+si es_palindromo(n) entonces
+	pout("El número " + n + " es palindromo")
+sino
+	pout("El número " + n + " no es palindromo")
+fin
